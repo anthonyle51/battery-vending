@@ -28,9 +28,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Selection onAddToCart={onAddToCart} />
-      {/* Temporary button to view cart contents for debugging */}
-      <button onClick={viewCart} style={{ margin: '20px', padding: '10px' }}>View Cart</button>
-      <Footer />
+      <Footer cartItems={cart} clearCart={clearCart}/>
     </div>
   );
 };

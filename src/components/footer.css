@@ -11,12 +11,29 @@
     align-items: center;
 }
 
-.checkout-button {
+.checkout-cart {
+    color:white;
+}
+
+.footer-btns {
+    display:flex;
+    flex-direction: column;
+}
+
+.footer-btns button {
+    margin: 10px;
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #007bff; /* Example button color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.checkout-button {
+    background-color: #007bff;
+}
+
+.clear-cart-button {
+    background-color: #f26d63;
 }
