@@ -20,8 +20,8 @@ function App() {
     });
   };
 
-  const viewCart = () => {
-    console.log(cart);
+  const clearCart = () => {
+    setCart([]); // Clears the cart
   };
 
   return (
