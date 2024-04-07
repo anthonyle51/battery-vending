@@ -10,7 +10,7 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "/icon512.png",
+            "src": "/plus-minus-logo.webp",
             "sizes": "512x512"
         }
     ]
