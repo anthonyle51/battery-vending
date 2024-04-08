@@ -8,5 +8,7 @@
     padding: 10px 20px;
     z-index: 1000;
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: space-around;
+
 }

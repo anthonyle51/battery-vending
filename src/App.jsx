@@ -6,6 +6,7 @@ import Selection from './components/Selection'; // Ensure this is the correct pa
 
 function App() {
   const [cart, setCart] = useState([]);
+  const [discout, setDiscount] = useState([]);
 
   const onAddToCart = (product) => {
     setCart(currentCart => {
