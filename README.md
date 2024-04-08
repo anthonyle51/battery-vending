@@ -1,3 +1,5 @@
-# Battery Vending Machine
+# Battery Vending Machine - PlusMinus
  
  UI for Battery Vending Machine
+
+
